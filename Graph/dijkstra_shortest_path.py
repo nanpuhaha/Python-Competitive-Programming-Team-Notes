@@ -24,7 +24,7 @@ def dijkstra(start):
 
 n, m = map(int, input().split())
 start = int(input())
-graph = [[] for i in range(n + 1)]
+graph = [[] for _ in range(n + 1)]
 distance = [INF] * (n + 1)
 
 for _ in range(m):
