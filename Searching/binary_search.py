@@ -18,7 +18,7 @@ target = 13
 array = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 
 result = binary_search(array, target, 0, n - 1)
-if result == None:
+if result is None:
     print(None)
 else:
     print(result + 1)

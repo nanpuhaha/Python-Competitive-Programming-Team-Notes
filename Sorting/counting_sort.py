@@ -9,5 +9,5 @@ for i in range(n):
     count[data[i]] += 1 # Increase the value in the index.
 
 for i in range(len(count)): # Check the sort information recorded on the list.
-    for j in range(count[i]):
+    for _ in range(count[i]):
         print(i) # Print each index as many times as it appears.
